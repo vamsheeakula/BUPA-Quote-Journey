@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bank Details</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/bankDetails.css" />
+  <link rel="stylesheet" href="css/quoteDisplayPageCSS.css" />
+  <link rel="stylesheet" href="css/quoteConfirmation.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <! --- Header ---- Start -->
+  <div id="header">
+    <div class="mod-header">
+      <div class="belt">
+        <div class="logo">
+          <a>
+            <img id="print-page-bupa-logo" src="images/Bupa_Dental_Care_logo_RGB.png" alt="BUPA logo">
+          </a>
+          <div class="header-links">
+            <ul class="side-by-side">
+              <ol><a href="#">Home</a></ol>
+              <ol><a href="#">Get a Quote</a></ol>
+              <ol><a href="#">Retrieve quotes and policies</a></ol>
+              <ol><a href="#">Sign Out</a></ol>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <! --- Header ---- End -->
+
+      <! --- Body ---- Start -->
+      <div id="body">
+        <div class="details-body">
+          <div class="belt">
+            <div class="quoteheading">
+              <div class="quote-pagetitle">
+                <h1>
+                  Bupa Dental plan quote
+                </h1>
+              </div>
+              <div class="quote-subtitle">
+                <p>You're almost there, just one more step...</p>
+              </div>
+            </div>
+
+            <! --- Body ---- Personal Details -->
+
+              <div class="row-step">
+                <h3 class="h3-heading-margin">
+                  <span>Enter your details to buy this cover</span>
+                </h3>
+                </div>
+                <div class="row-step-head">
+                <div class="quote-subtitle">
+                  <p class="title-hd">Your Bank details</p>
+                </div>
+                <p><span>Please make sure that all of the information you provide is correct.</span></p>
+                <div class="belt">
+                  <div class="FormDetails">
+                    <div class="grid">
+                      <div class="pad">
+                        <div class="form">
+
+                          <! --- Row 1 ---- ------------------------------------------------ Name>
+                          <div class="row" id="bank-div">
+                            <div class="field-selection">
+                              <div class="col w-30 label"><label for="city">Bank</label></div>
+                              <div class="col w-70 label">
+                                <input placeholder="Bank" class="bby-field" id="bank" name="bank" tabindex="3" type="text" value="">
+                              </div>
+                            </div>
+                          </div>
+                          <! --- Row 2 ---- ------------------------------------------------ Acc no>
+                          <div class="row" id="accno-div">
+                            <div class="field-selection">
+                              <div class="col w-30 label"><label for="city">Account Number</label></div>
+                              <div class="col w-70 label">
+                                <input placeholder="Account Number" class="bby-field" id="accno" name="accno" tabindex="3" type="text" value="">
+                              </div>
+                            </div>
+                          </div>
+                          <! --- Row 3 ---- ------------------------------------------------ Sort Code>
+                          <div class="row" id="sCode-div">
+                            <div class="field-selection">
+                              <div class="col w-30 label"><label for="city">Sort Code</label></div>
+                              <div class="col w-70 label">
+                                <input placeholder="Sort Code" class="bby-field" id="sCode" name="sCode" tabindex="3" type="text" value="">
+                              </div>
+                            </div>
+                          </div>
+                            <! --- Row 4 ---- ------------------------------------------------ Address 1>
+                              <div class="row" id="address1-div">
+                                <div class="field-selection">
+                                  <div class="col w-30 label">
+                                    <label for="address">Address</label>
+                                  </div>
+                                  <div class="col w-70 label">
+                                    <input placeholder="Address line 1" class="bby-field" id="address1" name="address1" tabindex="3" type="text" value="">
+                                  </div>
+                                </div>
+                              </div>
+                              <! --- Row 5 ---- ------------------------------------------------ Address 2>
+                                <div class="row" id="address2-div">
+                                  <div class="field-selection">
+                                    <div class="col w-30 label"><label for="city">&nbsp;</label></div>
+                                    <div class="col w-70 label">
+                                      <input placeholder="Address line 2" class="bby-field" id="address2" name="address2" tabindex="3" type="text" value="">
+                                    </div>
+                                  </div>
+                                </div>
+                                <! --- Row 6 ---- ------------------------------------------------ City>
+                                  <div class="row" id="city-div">
+                                    <div class="field-selection">
+                                      <div class="col w-30 label"><label for="city">City</label></div>
+                                      <div class="col w-70 label">
+                                        <input placeholder="City" class="bby-field" id="city" name="city" tabindex="3" type="text" value="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <! --- Row 7 ---- ------------------------------------------------ postal/zip code>
+                                    <div class="row" id="post-code-div">
+                                      <div class="field-selection">
+                                        <div class="col w-30 label"><label for="zip">Post Code</label></div>
+                                        <div class="col w-70 label">
+                                          <input placeholder="Post Code" class="bby-field" id="post-code" name="post-code" tabindex="3" type="text" value="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <! --- Row 8 ---- ------------------------------------------------ Country>
+                                      <div class="row" id="country-div">
+                                        <div class="field-selection">
+                                          <div class="col w-30 label">
+                                            <label for="country">Country</label>
+                                          </div>
+                                          <div class="col w-70 label">
+                                            <div class="select-full-box" >
+                                              <select name="name" class="country" id="country" required>
+                                                <option value="" disabled="disabled" selected="selected">Select Country</option>
+                                                <option value="United Kingdom">United Kingdom</option>
+                                              </select>
+                                            </div>
+                                            <div class="country-container">
+                                                              <span class="caret"></span>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <! --- Row 7 ---- ------------------------------------------------ Billing checkbox>
+                                        <div class="row" id="billingadd-div">
+                                          <div class="field-selection">
+                                            <div class="col w-100 label"><input type="checkbox" id="optin" name="check" checked />
+                                              <span class="billingCheckBox"> Use the above address as my Billing Address</span>
+                                          </div>
+                                        </div>
+                                        </div>
+                                        <! --- START ---- ------------------------------------------------ Billing Address Hidden DIV>
+                                        <div class="billing-address" id="enableDisable-billdiv">
+                                          <! --- Row 4 ---- ------------------------------------------------ Address 1>
+                                            <div class="row" id="bAddress1-div">
+                                              <div class="field-selection">
+                                                <div class="col w-30 label">
+                                                  <label for="bAddress1">Billing Address</label>
+                                                </div>
+                                                <div class="col w-70 label">
+                                                  <input placeholder="Billing Address line 1" class="bby-field" id="bAddress1" name="bAddress1" tabindex="3" type="text" value="">
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <! --- Row 5 ---- ------------------------------------------------ Address 2>
+                                              <div class="row" id="bAddress2-div">
+                                                <div class="field-selection">
+                                                  <div class="col w-30 label"><label for="bAddress2">&nbsp;</label></div>
+                                                  <div class="col w-70 label">
+                                                    <input placeholder="Billing Address line 2" class="bby-field" id="bAddress2" name="bAddress2" tabindex="3" type="text" value="">
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <! --- Row 6 ---- ------------------------------------------------ City>
+                                                <div class="row" id="bCity-div">
+                                                  <div class="field-selection">
+                                                    <div class="col w-30 label"><label for="bCity">City</label></div>
+                                                    <div class="col w-70 label">
+                                                      <input placeholder="City" class="bby-field" id="bCity" name="bCity" tabindex="3" type="text" value="">
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <! --- Row 7 ---- ------------------------------------------------ postal/zip code>
+                                                  <div class="row" id="BPost-code-div">
+                                                    <div class="field-selection">
+                                                      <div class="col w-30 label"><label for="BPost">Post Code</label></div>
+                                                      <div class="col w-70 label">
+                                                        <input placeholder="Post Code" class="bby-field" id="BPost-code" name="BPost" tabindex="3" type="text" value="">
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <! --- Row 8 ---- ------------------------------------------------ Country>
+                                                    <div class="row" id="country-div">
+                                                      <div class="field-selection">
+                                                        <div class="col w-30 label">
+                                                          <label for="country">Country</label>
+                                                        </div>
+                                                        <div class="col w-70 label">
+                                                          <div class="select-full-box" >
+                                                            <select name="name" class="country" required>
+                                                              <option value="" disabled="disabled" selected="selected">Select Country</option>
+                                                              <option value="36">United Kingdom</option>
+                                                            </select>
+                                                          </div>
+                                                          <div class="country-container">
+                                                                            <span class="caret"></span>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                        </div>
+                                        <! --- END ---- ------------------------------------------------ Billing Address Hidden DIV>
+                                        <! --- ---- ------------------------------------------------ T & C's checkbox>
+                                            <div class="row" id="tandc-div">
+                                              <div class="field-selection">
+                                                <div class="col w-100 label margin50"><input type="checkbox" name="check" />
+                                                <span class="billingCheckBox"> I have read and agree to the <a href=# class="termslink">Terms and Conditions</a></span></div>
+                                              </div>
+                                            </div>
+                                      <! --- Row 11 ---- ------------------------------------------------ Button>
+                                        <div class="row">
+                                          <div class="field-selection">
+                                            <div class="col w-30 marginbottom">
+                                              <a href="#" class="myButton">Save</a>&nbsp;&nbsp;&nbsp;
+                                              <a href="#" class="myButton">Continue &nbsp; <i class="fa fa-angle-right"></i></a>
+                                            </div>
+                                          </div>
+                                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-belt">
+                <div class="footer-links">
+                        <a href="#">Bupa 2020  |</a>  <a href="#">Terms and Conditions  |</a>  <a href="#">Privacy  |</a>  <a href="#">Sitemap</a>
+                </div>
+            </div>
+          </div>
+
+</body>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $("#optin").change(function () {
+     if ($("#optin").is(':checked')) {
+        $('#enableDisable-billdiv').slideUp('slow'); //disable input
+
+     } else {
+        $('#enableDisable-billdiv').slideDown('slow'); //enable input
+     }
+ });
+ });
+
+document.getElementById("address1").value = "Flat 9";
+document.getElementById("address2").value = "The Elms";
+document.getElementById("city").value = "London";
+document.getElementById("post-code").value = "LL1 23E";
+document.getElementById("country").value = "United Kingdom";
+
+
+
+document.getElementById("address1").disabled = true;
+document.getElementById("address2").disabled = true;
+document.getElementById("city").disabled = true;
+document.getElementById("post-code").disabled = true;
+document.getElementById("country").disabled = true;
+
+  </script>
+
+
+</html>

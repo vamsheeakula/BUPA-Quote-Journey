@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Get Quote</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <! --- Header ---- Start -->
+  <div id="header">
+    <div class="mod-header">
+      <div class="belt">
+        <div class="logo">
+          <a>
+            <img id="print-page-bupa-logo" src="images/Bupa_Dental_Care_logo_RGB-1.png" alt="BUPA logo">
+          </a>
+          <div class="header-links">
+            <ul class="side-by-side">
+              <ol><a href="#">Home</a></ol>
+              <ol><a href="#">Get a Quote</a></ol>
+              <ol><a href="#">Retrieve quotes and policies</a></ol>
+              <ol><a href="#">Sign Out</a></ol>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <! --- Header ---- End -->
+
+      <! --- Body ---- Start -->
+      <div id="body">
+        <div class="details-body">
+          <div class="belt">
+            <div class="quoteheading">
+              <div class="quote-pagetitle">
+                <h1>
+                  Bupa Dental plan quote
+                </h1>
+              </div>
+              <div class="quote-subtitle">
+                <p>Build the right cover for you...</p>
+              </div>
+            </div>
+
+            <! --- Body ---- Personal Details -->
+
+              <div class="row-step">
+                <h3>
+                  <span>Enter Patient Details</span>
+                </h3>
+                  </div>
+                <div class="belt">
+                  <div class="FormDetails">
+                    <div class="grid">
+                      <div class="pad">
+                        <div class="form">
+                          <! --- Row 1 ---- ------------------------------------------------ Name>
+                            <div class="row" id="name-div">
+                              <div class="field-selection">
+                                <div class="col w-30 label">
+                                  <label for="FirstName">Name</label>
+                                </div>
+                                <div class="col w-10">
+                                  <div class="select-full-box">
+                                    <select name="name" class="title" required>
+                                      <option value="" disabled="disabled" selected="selected" >Title</option>
+                                      <option value="36">Mr</option>
+                                      <option value="35">Miss</option>
+                                      <option value="37">Mrs</option>
+                                      <option value="38">Ms</option>
+                                      <option value="15">Dr</option>
+                                    </select>
+                                  </div>
+                                  <div class="title-container">
+                                                    <span class="caret"></span>
+                                    </div>
+                                </div>
+                                <div class="col w-25">
+                                  <input placeholder="First name" class="bby-field" id="FirstName" name="FirstName" tabindex="3" type="text" value="">
+                                </div>
+                                <div class="col w-25">
+                                  <input placeholder="Last name" class="bby-field" id="LastName" name="PersonalDetails.LastName" tabindex="4" type="text" value="">
+                                </div>
+                              </div>
+                            </div>
+                            <! --- Row 2 ---- ------------------------------------------------ Address 1>
+                              <div class="row" id="address1-div">
+                                <div class="field-selection">
+                                  <div class="col w-30 label">
+                                    <label for="address">Address</label>
+                                  </div>
+                                  <div class="col w-70 label">
+                                    <input placeholder="Address line 1" class="bby-field" id="Address" name="Address" tabindex="3" type="text" value="">
+                                  </div>
+                                </div>
+                              </div>
+                              <! --- Row 3 ---- ------------------------------------------------ Address 2>
+                                <div class="row" id="address2-div">
+                                  <div class="field-selection">
+                                    <div class="col w-30 label"><label for="city">&nbsp;</label></div>
+                                    <div class="col w-70 label">
+                                      <input placeholder="Address line 2" class="bby-field" id="address2" name="Address" tabindex="3" type="text" value="">
+                                    </div>
+                                  </div>
+                                </div>
+                                <! --- Row 4 ---- ------------------------------------------------ City>
+                                  <div class="row" id="city-div">
+                                    <div class="field-selection">
+                                      <div class="col w-30 label"><label for="city">City</label></div>
+                                      <div class="col w-70 label">
+                                        <input placeholder="City" class="bby-field" id="city" name="Address" tabindex="3" type="text" value="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <! --- Row 5 ---- ------------------------------------------------ postal/zip code>
+                                    <div class="row" id="post-code-div">
+                                      <div class="field-selection">
+                                        <div class="col w-30 label"><label for="zip">Post Code</label></div>
+                                        <div class="col w-70 label">
+                                          <input placeholder="Post Code" class="bby-field" id="post-code" name="Address" tabindex="3" type="text" value="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <! --- Row 6 ---- ------------------------------------------------ Country>
+                                      <div class="row" id="country-div">
+                                        <div class="field-selection">
+                                          <div class="col w-30 label">
+                                            <label for="country">Country</label>
+                                          </div>
+                                          <div class="col w-70 label">
+                                            <div class="select-full-box" >
+                                              <select name="name" class="country" required>
+                                                <option value="" disabled="disabled" selected="selected">Select Country</option>
+                                                <option value="36">United Kingdom</option>
+                                              </select>
+                                            </div>
+                                            <div class="country-container">
+                                                              <span class="caret"></span>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <! --- Row 7 ---- ------------------------------------------------ Email Address>
+                                        <div class="row" id="post-code-div">
+                                          <div class="field-selection">
+                                            <div class="col w-30 label"><label for="zip">Patient Email Address</label></div>
+                                            <div class="col w-70 label">
+                                              <input placeholder="Patient Email Address" class="bby-field" id="email" name="EmailAddress" tabindex="3" type="text" value="">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <! --- Row 8 ---- ------------------------------------------------ Practice Number>
+                                          <div class="row" id="post-code-div">
+                                            <div class="field-selection">
+                                              <div class="col w-30 label"><label for="zip">Practice Number</label></div>
+                                              <div class="col w-70 label">
+                                                <input placeholder="Practice Number" class="bby-field" id="practiceNumber" name="practiceNumber" tabindex="3" type="text" value="">
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <! --- Row 9 ---- ------------------------------------------------ Dentists>
+                                            <div class="row" id="country-div">
+                                              <div class="field-selection">
+                                                <div class="col w-30 label">
+                                                  <label for="country">Dentists</label>
+                                                </div>
+                                                <div class="col w-70 label">
+                                                  <div class="select-full-box">
+                                                    <select name="name" class="dentists" required>
+                                                      <option value="" disabled="disabled" selected="selected">Select Dentists</option>
+                                                      <option value="36">Dentist 1</option>
+                                                      <option value="35">Dentist 2</option>
+                                                      <option value="36">Dentist 3</option>
+                                                      <option value="35">Dentist 4</option>
+                                                    </select>
+                                                  </div>
+                                                  <div class="dentists-container">
+                                                                    <span class="caret"></span>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <! --- Row 10 ---- ------------------------------------------------ Marketing goal>
+                                              <div class="row" id="country-div">
+                                                <div class="field-selection">
+                                                  <div class="col w-30 label">
+                                                    <label for="country">How did you hear about us?</label>
+                                                  </div>
+                                                  <div class="col w-70 label" style="margin-bottom: 50px;">
+                                                    <div class="select-full-box">
+                                                      <select name="name" class = "marketing" required>
+                                                        <option value="" disabled="disabled" selected="selected">Please Select</option>
+                                                        <option value="36">PPC</option>
+                                                        <option value="35">GMB</option>
+                                                        <option value="36">Practice Page Website</option>
+                                                        <option value="37">Social Media</option>
+                                                        <option value="38">Traditional Channels</option>
+                                                      </select>
+                                                    </div>
+                                                    <div class="marketing-container">
+                                                                      <span class="caret"></span>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <! --- Row 11 ---- ------------------------------------------------ Button>
+                                                <div class="row">
+                                                  <div class="field-selection">
+                                                    <div class="col w-30 marginbottom">
+                                                      <a href="#" class="myButton">Save</a>&nbsp;&nbsp;&nbsp;
+                                                      <a href="#" class="myButton">Continue &nbsp; <i class="fa fa-angle-right"></i></a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          </div>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-belt">
+                <div class="footer-links">
+                        <a href="#">Bupa 2020  |</a>  <a href="#">Terms and Conditions  |</a>  <a href="#">Privacy  |</a>  <a href="#">Sitemap</a>
+                </div>
+            </div>
+          </div>
+
+</body>
+
+
+
+</html>

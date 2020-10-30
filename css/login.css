@@ -1,0 +1,118 @@
+.login-outer-container {
+    width: 40%;
+    background-color: white;
+    margin: auto;
+    border: 1px solid #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 40px;
+}
+
+.login-user-header-msg {
+  background-color: #009FDA;
+  padding: 5px 0 5px 0;
+  line-height: 60px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.login-user-header-msg h3 {
+  margin: 0;
+  text-align: center;
+}
+
+
+.login-user-header {
+  margin: auto;
+   box-sizing: border-box;
+   width: 380px;
+}
+
+.login-input {
+  margin: auto;
+}
+
+.input-field {
+    border-radius: 3px;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat';font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.login-img-div {
+  text-align: center;
+  position: relative;
+}
+
+.login-img{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot-password {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.forgot-password a{
+  color:#0079c8;
+  font-size: 15px;
+}
+
+.forgot-password .forgot-anchor:focus, .forgot-anchor:hover{
+  color:#00335b;
+  text-decoration: underline;
+}
+
+
+.sign-in-div {
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+a.sign-in {
+	box-shadow: 0px 0px 0px 0px #00089c;
+	background-color:#0079c8;
+	border-radius:5px;
+  height: auto;
+	border:0;
+	cursor:pointer;
+	color: #fff;
+	font-family: 'Montserrat';
+	font-size:14px;
+	font-weight:bold;
+	padding: 10px 20px 12px 20px;
+	text-decoration:none;
+  position: relative;
+  background-position: 80%;
+}
+.sign-in:hover {
+	background-color:#00548c;
+}
+.sign-in:active {
+	position:relative;
+	top:1px;
+}
+
+/* Forgot Password CSS */
+.forgot-password-div {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+
+.forgot-password-msg span {
+  font-weight: bold;
+}
+
+.forgot-password-button-div {
+  text-align: center;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}

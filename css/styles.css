@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h4, h5, h6, header, hgroup, html, i, iframe, ins, kbd, label, legend, li, mark, menu, nav, object,output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    outline: 0;
+    background: transparent;
+
+}
+
+body {
+  font-family: 'Montserrat';font-size: 16px;
+  font-weight: 500 !important;
+
+}
+
+#body{
+  min-height: 493px;
+}
+
+.mod-header {
+  background: #fff;
+  border-bottom: 1px solid #f2f1f1;
+  height: 140px;
+  position: relative;
+  z-index: 7900;
+  font-family: 'Montserrat';font-size: 17px;
+}
+
+.belt {
+    max-width: 1140px;
+    padding: 23px 30px;
+    margin: 0 auto;
+}
+
+a img{
+    height: 96px;
+    margin-top: 0;
+    position: absolute;
+    border: none;
+}
+
+.side-by-side {
+  text-decoration: none;
+  color: #333;
+}
+ol {
+    display: inline;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #0079c8
+  }
+
+  .header-links {
+  padding: 20px 0;
+  text-align: right;
+  margin-top: 0;
+}
+
+.details-body {
+  background: #fff;
+  position: relative;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.grid {
+    margin-left: -30px;
+}
+
+.pad {
+    padding-left: 30px;
+}
+
+.quoteheading {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+.quote-subtitle {
+  font-size: 32px;
+    line-height: 1;
+}
+
+.quote-subtitle p{
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.row-step {
+    border-right: 1px solid #ccc;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #009FDA;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: left;
+    padding: 0 9px;
+}
+
+.row-step-head {
+    font-size: 16px;
+    text-align: left;
+}
+h3 {
+  font-size: 20px;
+}
+h3 span {
+  color: #ffffff;
+}
+
+.col {
+  float: left;
+}
+
+.w-30 {
+  position: relative;
+  width: 30%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  clear: both;
+
+}
+
+.w-30-div {
+  position: relative;
+  width: 30%;
+  clear: both;
+  margin-left: 32px;
+}
+
+
+.marginbottom {
+  margin-bottom: 100px;
+
+}
+
+.col.w-70.marginbottom {
+  text-align: right;
+}
+
+.w-70 {
+  width: 67%;
+  position: relative;
+}
+
+.w-100 {
+  width: 85%;
+  padding: 10px 0px 40px 30px;
+}
+
+.w-25 {
+    margin-left: 28px;
+    position: relative;
+}
+
+.bby-field {
+    border-radius: 3px;
+    width: 85%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat';font-size: 16px;
+}
+
+.w-10 {
+  width: 108px;
+  margin-right: 13px;
+}
+
+.select-full-box {
+    border-radius: 3px;
+    width: 90px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.select-full-box .title {
+    width: 121px;
+}
+.select-full-box .country, .dentists, .marketing, .TandC {
+    width: 663px;
+}
+
+.caret {
+    position: relative;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+    position: relative;
+}
+.title-container .caret {
+  top: -50px;
+  right: -95px;
+}
+.country-container .caret, .dentists-container .caret, .marketing-container .caret, .TandC-container .caret {
+  left: 631px;
+  top: -50px;
+}
+
+  /* Remove down arrow from Select Box */
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+
+select {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Montserrat';font-size: 16px;
+}
+select:focus {
+    outline: none !important;
+    border-color: #0079c8;
+    box-shadow: 0 0 10px #0079c8;
+}
+
+.select-full-box {
+  margin-bottom: 10px;
+}
+
+  option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+  }
+
+
+.title {
+  right: 16px;
+}
+
+label {
+  font-size: 16px;
+  padding: 10px 0 10px 30px;
+  font-weight: bold;
+}
+
+.row {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: -30px;
+
+}
+
+ input#address2, input#city, input#post-code, input#email, input#practiceNumber, input#bAddress2, input#bCity,input#BPost-code  {
+  margin-bottom: 30px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #0079c8;
+    box-shadow: 0 0 10px #0079c8;
+}
+
+
+a.myButton {
+	box-shadow: 0px 0px 0px 0px #00089c;
+	background-color:#0079c8;
+	border-radius:5px;
+  height: auto;
+	border:0;
+	cursor:pointer;
+	color: #fff;
+	font-family: 'Montserrat';
+	font-size:16px;
+	font-weight:bold;
+	padding:20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #154682;
+  position: relative;
+}
+.myButton:hover {
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.fa {
+  font-weight:bold;
+}
+
+.fa fa-angle-right {
+  top: 42%;
+}
+
+.footer {
+  background-color:  #00335b;
+  height: 119px;
+  clear: both;
+  position: relative;
+    z-index: 7900;
+}
+
+.footer-belt {
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.footer-links {
+  padding: 48px 0;
+    text-align: left;
+    margin-top: 0;
+}
+
+.footer-links a {
+  color: #fff;
+  font-family: 'Montserrat';
+	font-size:16px;
+	font-weight:normal;
+  text-decoration:none;
+}

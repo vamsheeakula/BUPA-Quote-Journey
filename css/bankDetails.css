@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+input#bank, input#accno, input#sCode, input#TandC  {
+ margin-bottom: 40px;
+}
+
+input[type=checkbox]{
+  transform : scale(2);
+  margin-left: 10px;
+  margin-right: 15px;
+
+}
+
+.billingCheckBox {
+  font-weight: 600;
+    font-size: 16px;
+}
+
+
+.billing-address {
+  -webkit-transition: none;
+-moz-transition: none;
+-o-transition: none;
+-ms-transition: none;
+transition: none;
+transition: all 0.5s;
+display: none;
+}
+
+.billingCheckBox {
+
+}
+.termslink {
+  color: #008385;
+  font-weight: 600;
+}
+
+input:disabled {
+  background-color: #f1efeb;
+  font-weight: bold;
+}
+
+select:disabled {
+  background-color: #f1efeb;
+  font-weight: bold;
+}
+
+.margin50 {
+  margin-bottom: 50px;
+}
